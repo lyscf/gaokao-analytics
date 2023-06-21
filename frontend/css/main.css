@@ -1,0 +1,29 @@
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+.data-list .item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.data-list .item::before {
+    content: attr(data-title) ":";
+    margin-right: 6px;
+    flex: none;
+}
+
+.data-list .item > span {
+    word-break: break-all;
+    word-wrap: break-word;
+    flex: 1;
+}
