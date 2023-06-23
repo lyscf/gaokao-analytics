@@ -19,7 +19,7 @@
 
 首先，请运行history(历史录取数据),info(学校信息介绍),rank(学校具体排名),project(学校招生计划),文件夹中的getxxxxx.py以获取数据
 
-之后，你需要将project目录复制到predict目录下开始进行数据预测
+之后，你需要将history目录复制到predict目录下开始进行数据预测
 
 运行predict.py开始预测，假设数据完整并与年份存在相关关系(这个预测我真不知道咋做所以就求助了万能的chatgpt)
 
